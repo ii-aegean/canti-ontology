@@ -1,0 +1,1467 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/canti-voc#"
+     xml:base="http://www.semanticweb.org/canti-voc"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/canti-voc">
+        <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="en">CAnTi Vocabulary</rdfs:label>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#canti-vocScheme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#canti-vocScheme">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00001"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00003"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00004"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00005"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00006"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00007"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00008"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00009"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00010"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00012"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00013"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00014"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00015"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00016"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00017"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00018"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00019"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00020"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00021"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00022"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00023"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00028"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00029"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00030"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00031"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00032"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00036"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00037"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00039"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00040"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00041"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00042"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00043"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00044"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00045"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00046"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00047"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00048"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00049"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00050"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00051"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00052"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00053"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00054"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00055"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00056"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00057"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00058"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00059"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00060"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00061"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00062"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00063"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00064"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00065"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00066"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00069"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00070"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00071"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00072"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00073"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00074"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00075"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00076"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00077"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00078"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00081"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00091"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00095"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00099"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00100"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00101"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00102"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00103"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00104"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00105"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00106"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00107"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00108"/>
+        <skos:hasTopConcept rdf:resource="http://www.semanticweb.org/canti-voc#concept_00109"/>
+        <rdfs:label xml:lang="en">CAnTi Vocabulary</rdfs:label>
+        <rdfs:label xml:lang="el">Λεξιλόγιο CAnTi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00001">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00002"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Cleaning</rdfs:label>
+        <rdfs:label xml:lang="el">Καθαρισμός</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00002">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00001"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Surface cleaning</rdfs:label>
+        <rdfs:label xml:lang="el">Επιφανειακός καθαρισμός</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00003">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Fixing</rdfs:label>
+        <rdfs:label xml:lang="el">Στερέωση</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00004">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Consolidation</rdfs:label>
+        <rdfs:label xml:lang="el">Συγκόλληση</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00005">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Moving scattered stones</rdfs:label>
+        <rdfs:label xml:lang="el">Μετακίνηση διάσπαρτων λίθων</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00006 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00006">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Filling</rdfs:label>
+        <rdfs:label xml:lang="el">Γέμισμα αρμών</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00007 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00007">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Tamping</rdfs:label>
+        <rdfs:label xml:lang="el">Σφήνωμα αρμών</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00008">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Jointing</rdfs:label>
+        <rdfs:label xml:lang="el">Αρμολόγημα</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00009 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00009">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Ancient stone removal</rdfs:label>
+        <rdfs:label xml:lang="en">Απομάκρυνση αρχαίου λίθου</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00010 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00010">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Ancient stone repositioning</rdfs:label>
+        <rdfs:label xml:lang="el">Επανατοποθέτηση αρχαίου λίθου</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00011 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00011">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">New stone addition</rdfs:label>
+        <rdfs:label xml:lang="el">Τοποθέτηση νέου λίθου</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00012">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Stone layer loss</rdfs:label>
+        <rdfs:label xml:lang="el">Απώλεια στρώσης ογκόλιθων</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00013 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00013">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Masonry inner layer leaching</rdfs:label>
+        <rdfs:label xml:lang="el">Έκπληση εσωτερικής στρώσης τοιχοποιίας</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00014 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00014">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Stone cracking</rdfs:label>
+        <rdfs:label xml:lang="el">Ρηγμάτωση ογκόλιθου</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00015 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00015">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Stone erosion</rdfs:label>
+        <rdfs:label xml:lang="el">Αποσάρθωση ογκόλιθου</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00016 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00016">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Stone fragmentation</rdfs:label>
+        <rdfs:label xml:lang="el">Θραύση ογκόλιθου</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00017 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00017">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Stone part loss</rdfs:label>
+        <rdfs:label xml:lang="el">Απώλεια τμήματος ογκόλιθου</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00018 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00018">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Biological degradation</rdfs:label>
+        <rdfs:label xml:lang="el">Διάβρωση από βιολογικό παράγοντα</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00019 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00019">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Stone outer side loss</rdfs:label>
+        <rdfs:label xml:lang="el">Απώλεια εξωτερικής παρειάς ογκόλιθου</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00020 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00020">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Component instability</rdfs:label>
+        <rdfs:label xml:lang="el">Ανισορροπία μέλους</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00021 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00021">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Mortar</rdfs:label>
+        <rdfs:label xml:lang="el">Κονίαμα</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00022 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00022">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Grout</rdfs:label>
+        <rdfs:label xml:lang="el">Ένεμα</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00023 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00023">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00024"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00025"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00026"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00027"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Reinforcement</rdfs:label>
+        <rdfs:label xml:lang="el">Οπλισμός</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00024 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00024">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00023"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Stainless steel reinforcement</rdfs:label>
+        <rdfs:label xml:lang="el">Οπλισμός ανοξείδωτου χάλυβα</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00025 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00025">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00023"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Inox reinforcement</rdfs:label>
+        <rdfs:label xml:lang="el">Οπλισμός Inox</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00026 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00026">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00023"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Titanium reinforcement</rdfs:label>
+        <rdfs:label xml:lang="el">Οπλισμός τιτανίου</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00027 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00027">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00023"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Striped threated reinforcement</rdfs:label>
+        <rdfs:label xml:lang="el">Οπλισμός ραβδωμένος κοχλιοτομημένος</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00028 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00028">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Bar</rdfs:label>
+        <rdfs:label xml:lang="el">Ράβδος</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00029 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00029">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">White cement</rdfs:label>
+        <rdfs:label xml:lang="el">Λευκό τσιμέντο</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00030 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00030">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Hydraulic lime</rdfs:label>
+        <rdfs:label xml:lang="el">Υδραυλική άσβεστος</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00031 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00031">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Pozzolana</rdfs:label>
+        <rdfs:label xml:lang="el">Ποζολάνη</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00032 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00032">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00033"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00034"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Sand</rdfs:label>
+        <rdfs:label xml:lang="el">Άμμος</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00033 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00033">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00032"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Washed sand</rdfs:label>
+        <rdfs:label xml:lang="el">Άμμος πλυμμένη</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00034 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00034">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00032"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Unwashed sand</rdfs:label>
+        <rdfs:label xml:lang="el">Άμμος άπλυτη</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00035 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00035">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Binder</rdfs:label>
+        <rdfs:label xml:lang="el">Συνδετική κονία</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00036 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00036">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Lime</rdfs:label>
+        <rdfs:label xml:lang="el">Ασβέστης</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00037 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00037">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Hydrated lime</rdfs:label>
+        <rdfs:label xml:lang="el">Υδράσβεστος</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00038 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00038">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Aggregate</rdfs:label>
+        <rdfs:label xml:lang="el">Αδρανές</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00039 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00039">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Silica</rdfs:label>
+        <rdfs:label xml:lang="el">Παιπάλη</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00040 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00040">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Excavation soil</rdfs:label>
+        <rdfs:label xml:lang="el">Χώμα ανασκαφής</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00041 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00041">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Granulometrie</rdfs:label>
+        <rdfs:label xml:lang="el">Κοκκομετρία</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00042 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00042">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Length</rdfs:label>
+        <rdfs:label xml:lang="el">Μήκος</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00043 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00043">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Diameter</rdfs:label>
+        <rdfs:label xml:lang="el">Διάμετρος</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00044 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00044">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Analogy</rdfs:label>
+        <rdfs:label xml:lang="el">Αναλογία</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00045 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00045">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Crane</rdfs:label>
+        <rdfs:label xml:lang="el">Γερανός</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00046 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00046">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Lifting machine</rdfs:label>
+        <rdfs:label xml:lang="el">Ανυψωτικό μηχάνημα</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00047 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00047">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Hoist</rdfs:label>
+        <rdfs:label xml:lang="el">Πάλαγκα</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00048 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00048">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Dry sand spray machine</rdfs:label>
+        <rdfs:label xml:lang="el">Μηχανή ψεκασμού ξηρής άμμου</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00049 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00049">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Scaffolding</rdfs:label>
+        <rdfs:label xml:lang="el">Σκαλωσιά</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00050 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00050">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Trailer</rdfs:label>
+        <rdfs:label xml:lang="el">Τρέιλερ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00051 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00051">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Drone</rdfs:label>
+        <rdfs:label xml:lang="el">Μη επανδρωμένο αεροσκάφος</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00052 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00052">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Laser scanner</rdfs:label>
+        <rdfs:label xml:lang="el">Σαρωτής laser</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00053 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00053">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Photographic camera</rdfs:label>
+        <rdfs:label xml:lang="el">Φωτογραφική κάμερα</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00054 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00054">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Scanner</rdfs:label>
+        <rdfs:label xml:lang="el">Τομογράφος</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00055 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00055">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Detached part weight</rdfs:label>
+        <rdfs:label xml:lang="el">Βάρος αποκοπτόμενου τμήματος</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00056 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00056">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Machine screw resistance</rdfs:label>
+        <rdfs:label xml:lang="el">Αντίσταση βλήτρου</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00057 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00057">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Resistance of fitting out</rdfs:label>
+        <rdfs:label xml:lang="el">Αντίσταση σε εξόλκευση</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00058 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00058">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Digitization for archiving</rdfs:label>
+        <rdfs:label xml:lang="el">Ψηφιοποίηση για αρχειοθέτηση</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00059 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00059">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Digitization for web promotion</rdfs:label>
+        <rdfs:label xml:lang="el">Ψηφιοποίηση για προβολή στον Ιστό</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00060 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00060">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Digitization software</rdfs:label>
+        <rdfs:label xml:lang="el">Λογισμικό ψηφιοποίησης</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00061 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00061">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Reconstruction software</rdfs:label>
+        <rdfs:label xml:lang="el">Λογισμικό ανακατασκευής</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00062 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00062">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Secondary processing software</rdfs:label>
+        <rdfs:label xml:lang="el">Λογισμικό δευτερεύουσας επεξεργασίας</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00063 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00063">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Digital photograph</rdfs:label>
+        <rdfs:label xml:lang="el">Ψηφιακή φωτογραφία</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00064 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00064">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Sketch</rdfs:label>
+        <rdfs:label xml:lang="el">Σκίτσο</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00065 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00065">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Plat</rdfs:label>
+        <rdfs:label xml:lang="el">Τοπογραφικό σχέδιο</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00066 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00066">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00067"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00068"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">3D model</rdfs:label>
+        <rdfs:label xml:lang="el">Τριδιάστατο μοντέλο</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00067 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00067">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00066"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">3D laser model</rdfs:label>
+        <rdfs:label xml:lang="el">Τριδιάστατο μοντέλο laser</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00068 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00068">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00066"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">3D design model</rdfs:label>
+        <rdfs:label xml:lang="el">Τριδιάστατο μοντέλο σχέδιο</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00069 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00069">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Orthophotograph</rdfs:label>
+        <rdfs:label xml:lang="el">Ορθοφωτογραφία</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00070 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00070">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Video</rdfs:label>
+        <rdfs:label xml:lang="el">Βίντεο</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00071 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00071">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Excel record</rdfs:label>
+        <rdfs:label xml:lang="el">Αρχείο excel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00072 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00072">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Power point record</rdfs:label>
+        <rdfs:label xml:lang="el">Αρχείο power point</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00073 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00073">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Word report record</rdfs:label>
+        <rdfs:label xml:lang="el">Αρχείο αναφοράς word</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00074 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00074">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Word note record</rdfs:label>
+        <rdfs:label xml:lang="el">Αρχείο σημειώσεων word</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00075 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00075">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Before conservation intervention</rdfs:label>
+        <rdfs:label xml:lang="el">Πριν την επέμβαση</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00076 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00076">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">During conservation intervention</rdfs:label>
+        <rdfs:label xml:lang="el">Κατά την διάρκεια της επέμβασης</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00077 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00077">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">After conservation intervention</rdfs:label>
+        <rdfs:label xml:lang="el">Μετά την επέμβαση</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00078 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00078">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00079"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00080"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method laser scanning</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος μέτρησης με χρήση ακτίνων λέιζερ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00079 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00079">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00078"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method laser triangulation</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος τριγωνισμού ακτίνων λέιζερ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00080 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00080">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00078"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method time of flight laser scanning</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος χρόνου πτήσης ακτίνας λέιζερ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00081 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00081">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00082"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00083"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00084"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00085"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00086"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00087"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00088"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00089"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00090"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method shape/structure-from-X</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος σχήματος/δομής-από-Χ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00082 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00082">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00081"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method shape from structured light</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος σχήματος από δομημένο φωτισμό</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00083 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00083">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00081"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method shape from silhouette</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος σχήματος από σιλουέτα</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00084 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00084">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00081"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method shape from stereo</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος σχήματος από στερεοφωτογράφιση</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00085 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00085">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00081"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method shape from texture</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος σχήματος από υφή</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00086 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00086">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00081"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method shape from shadow</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος σχήματος από σκιά</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00087 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00087">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00081"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method shape from shading</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος σχήματος από φωτοσκίαση</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00088 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00088">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00081"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method shape from photometry</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος σχήματος από φωτομετρία</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00089 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00089">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00081"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method shape/structure from motion</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος σχήματος/δομής από κίνηση</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00090 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00090">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00081"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method shape from focus</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος σχήματος από μεταβαλλόμενη εστίαση</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00091 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00091">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00092"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00093"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00094"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method conventional methods</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος με παραδοσιακές τεχνικές</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00092 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00092">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00091"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method traditional photogrammetry</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος παραδοσιακής φωτογραμμετρίας</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00093 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00093">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00091"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method topography</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος τοπογραφίας</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00094 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00094">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00091"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method empirical techniques</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος με εμπειρικές τεχνικές</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00095 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00095">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00096"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00097"/>
+        <skos:narrower rdf:resource="http://www.semanticweb.org/canti-voc#concept_00098"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method special techniques</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος με ειδικές τεχνικές</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00096 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00096">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00095"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method holography</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος ολογραφίας</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00097 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00097">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00095"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method microscopy</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος μικροσκοπίας</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00098 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00098">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://www.semanticweb.org/canti-voc#concept_00095"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Method tomography</rdfs:label>
+        <rdfs:label xml:lang="el">Μέθοδος τομογραφίας</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00099 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00099">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Director intervention expert</rdfs:label>
+        <rdfs:label xml:lang="el">Υπεύθυνος ειδικός επέμβασης</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00100 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00100">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Director digitization expert</rdfs:label>
+        <rdfs:label xml:lang="el">Υπεύθυνος ειδικός ψηφιοποίησης</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00101 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00101">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Director reconstruction expert</rdfs:label>
+        <rdfs:label xml:lang="el">Υπεύθυνος ειδικός ανακατασκευής</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00102 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00102">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Director post-processing expert</rdfs:label>
+        <rdfs:label xml:lang="el">Υπεύθυνος ειδικός δευτερογενούς επεξεργασίας</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00103 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00103">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Participant intervention expert</rdfs:label>
+        <rdfs:label xml:lang="el">Συμμετέχων ειδικός επέμβασης</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00104 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00104">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Participant digitization expert</rdfs:label>
+        <rdfs:label xml:lang="el">Συμμετέχων ειδικός ψηφιοποίησης</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00105 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00105">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Participant reconstruction expert</rdfs:label>
+        <rdfs:label xml:lang="el">Συμμετέχων ειδικός ανακατασκευής</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00106 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00106">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Participant post-processing expert</rdfs:label>
+        <rdfs:label xml:lang="el">Συμμετέχων ειδικός δευτερογενούς επεξεργασίας</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00107 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00107">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Number of vertices</rdfs:label>
+        <rdfs:label xml:lang="el">Πλήθος κορυφών</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00108">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Number of polygons</rdfs:label>
+        <rdfs:label xml:lang="el">Πλήθος πολυγώνων</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00109 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00109">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Average accuracy</rdfs:label>
+        <rdfs:label xml:lang="el">Μέση ακρίβεια</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/canti-voc#concept_00110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/canti-voc#concept_00110">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <skos:topConceptOf rdf:resource="http://www.semanticweb.org/canti-voc#canti-vocScheme"/>
+        <rdfs:label xml:lang="en">Average resolution</rdfs:label>
+        <rdfs:label xml:lang="el">Μέση ανάλυση</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
